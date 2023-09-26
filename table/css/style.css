@@ -1,0 +1,25 @@
+html {
+    font-size: 100%;
+}
+body {
+    color: #2b2a27;
+    font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Meiryo", sans-serif;
+}
+img {
+    max-width: 100%;
+}
+ul {
+    list-style: none;
+}
+a {
+    color: #2b2a27;
+}
+
+/* main */
+#main img {
+    width: 100%;
+    height: 100hv;
+    object-fit: cover;
+    object-position: center top;
+    margin-bottom: 80px;
+}
