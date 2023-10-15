@@ -372,16 +372,22 @@ margin-top: 10px;
         flex-wrap: wrap;
     }   
     .company-card {
-        width: 100%;
-        margin-bottom: 20px;
+        width: 82%;
+        margin-bottom: 180px;
         margin-left: 30px;
+        margin-bottom: 50px;
         padding-top: 30px;
+        padding-bottom: 200px;
         position: static;
     }
     .company-card-img {
         width: 100%;
         padding: 0;
         position: static;
+    }
+
+    .company-card-img img {
+        padding-left: 2%;
     }
     .list {
         flex-direction: column;
@@ -400,6 +406,12 @@ margin-top: 10px;
     }
     .list .add {
         margin-left: 0;
+    }
+
+    .footer-content {
+        margin-top: 400px;
+        margin-top: 400px;
+        align-items: flex-start;
     }
 
 }
