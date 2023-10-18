@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #f0f0f0;
     color: #000;
@@ -228,7 +232,7 @@ li {
     left: 0;
 
     width: 32%;
-    height: 55%;
+    /* height: 55%; */
     background-color: #fff;
 
     padding: 100px 5%;
@@ -361,7 +365,7 @@ margin-top: 10px;
     /* business */
     .business-wrap {
         flex-wrap: wrap;
-        padding-left: 2%;
+        padding: initial;
     }
     .business-cards {
         width: 100%;
@@ -370,11 +374,13 @@ margin-top: 10px;
     /* company */
     .company {
         flex-wrap: wrap;
+        justify-content: center;
     }   
     .company-card {
-        width: 82%;
+        width: 100%;
         margin-bottom: 180px;
-        margin-left: 30px;
+        margin-left: 16px;
+        margin-right: 16px;
         margin-bottom: 50px;
         padding-top: 30px;
         padding-bottom: 200px;
@@ -413,7 +419,6 @@ margin-top: 10px;
         margin-top: 400px;
         align-items: flex-start;
     }
-
 }
 
 
